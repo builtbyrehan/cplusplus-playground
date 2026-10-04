@@ -7,3 +7,17 @@ int main() {
 
     return 0;
 }
+
+/*
+
+#include <iostream>   // Header file
+
+using namespace std;  // Namespace
+
+int main() {           // Main function
+
+    // Program statements
+
+    return 0;          // Successful termination
+}
+*/
