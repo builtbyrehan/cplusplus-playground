@@ -61,7 +61,27 @@ int main() {
 
     cout << "Code of " << digit << ": "
          << static_cast<int>(digit) << endl;
+     /*
+        We can also create a char using a numeric code.
 
+        Example:
+            char letter = 65;
+
+        On systems using ASCII-compatible character encoding,
+        65 represents 'A'.
+    */
+
+    char letter = 65;
+
+    cout << "\nCharacter from code 65: "
+         << letter << endl;
+
+    cout << "\nMemory Size" << endl;
+    cout << "-----------" << endl;
+
+    cout << "Size of char: "
+         << sizeof(char)
+         << " byte" << endl;
    
     return 0;
 }
