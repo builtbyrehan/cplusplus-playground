@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std; 
 /*
     Topic: Variables in C++
 
@@ -31,6 +31,13 @@ int main() {
     std::cout << "Height: " << height << std::endl;
     std::cout << "Grade: " << grade << std::endl;
     std::cout << "Student: " << isStudent << std::endl;
+
+    // rules for naming variables must be followed
+    // 1. no varialbes name (identifier) can be started by a number
+    // 2. it can be an underscore or a letter i.e. a-z or A-Z
+    
+
+
 
     // A variable's value can be changed.
     age = 21;
