@@ -43,6 +43,15 @@ int main() {
     cout << "Months in a year: " << MONTHS_IN_YEAR << endl;
     cout << "Gravity: " << GRAVITY << " m/s^2" << endl;
 
+        /*
+        Trying to modify a constant will cause a compilation error.
+
+        Example:
+
+            PI = 3.14;
+
+        This is NOT allowed because PI was declared using const.
+    */
 
 
     return 0;
