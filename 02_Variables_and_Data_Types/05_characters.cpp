@@ -45,6 +45,23 @@ int main() {
     cout << "Symbol: " << symbol << endl;
     cout << "Digit character: " << digit << endl;
 
+    
+    /*
+        A char can also be converted to its numeric code.
+    */
 
+    cout << "\nCharacter Codes" << endl;
+    cout << "---------------" << endl;
+
+    cout << "Code of " << grade << ": "
+         << static_cast<int>(grade) << endl;
+
+    cout << "Code of " << initial << ": "
+         << static_cast<int>(initial) << endl;
+
+    cout << "Code of " << digit << ": "
+         << static_cast<int>(digit) << endl;
+
+   
     return 0;
 }
