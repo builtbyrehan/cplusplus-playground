@@ -66,6 +66,14 @@ int main() {
     cout << "signed int: " << temperature << endl;
     cout << "unsigned int: " << students << endl;
 
+    cout << "\nMemory Size" << endl;
+    cout << "-----------" << endl;
+
+    cout << "short: "
+         << sizeof(short)
+         << " bytes" << endl;
+
+
 
     return 0;
 }
