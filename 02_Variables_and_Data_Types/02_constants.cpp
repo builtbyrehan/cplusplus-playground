@@ -54,5 +54,8 @@ int main() {
     */
 
 
+    // it is a good practice to write the constant identifier in upper case
+
+
     return 0;
 }
