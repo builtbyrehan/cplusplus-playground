@@ -95,3 +95,5 @@ int main() {
 
     return 0;
 }
+
+// why do we use these variation of floating data types, where would they be helpful in real world projects?
