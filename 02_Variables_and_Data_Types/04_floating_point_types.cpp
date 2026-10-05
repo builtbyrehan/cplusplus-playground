@@ -58,7 +58,13 @@ int main() {
          << sizeof(float)
          << " bytes" << endl;
 
+    cout << "double: "
+         << sizeof(double)
+         << " bytes" << endl;
 
+    cout << "long double: "
+         << sizeof(long double)
+         << " bytes" << endl;
 
     /*
         setprecision() allows us to control how many
