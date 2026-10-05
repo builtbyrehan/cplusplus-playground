@@ -91,3 +91,7 @@ int main() {
 
     return 0;
 }
+
+/*
+when do we use these integer data types, each type of int has its own purpose, elaborate? 
+*/
