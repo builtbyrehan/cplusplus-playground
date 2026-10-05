@@ -73,7 +73,21 @@ int main() {
          << sizeof(short)
          << " bytes" << endl;
 
+        cout << "int: "
+         << sizeof(int)
+         << " bytes" << endl;
 
+    cout << "long: "
+         << sizeof(long)
+         << " bytes" << endl;
+
+    cout << "long long: "
+         << sizeof(long long)
+         << " bytes" << endl;
+
+    cout << "unsigned int: "
+         << sizeof(unsigned int)
+         << " bytes" << endl;
 
     return 0;
 }
