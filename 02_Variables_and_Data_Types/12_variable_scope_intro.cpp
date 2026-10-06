@@ -84,6 +84,27 @@ int main() {
         The local variable takes priority inside
         its own scope.
     */
+    int globalNumber = 25;
+
+    cout << "\nScope Example" << endl;
+    cout << "-------------" << endl;
+
+    cout << "Local globalNumber: "
+         << globalNumber << endl;
+
+
+    /*
+        The scope resolution operator ::
+
+        can be used to access the global version
+        when a local variable has the same name.
+    */
+
+    cout << "Actual global globalNumber: "
+         << ::globalNumber << endl;
+
+
+
 
 
     return 0;
