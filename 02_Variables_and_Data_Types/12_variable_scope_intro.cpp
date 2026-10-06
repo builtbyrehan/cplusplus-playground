@@ -49,6 +49,42 @@ int main() {
          << globalNumber << endl;
 
 
+    /*
+        2. Block Scope
+
+        A variable declared inside a block { }
+        can only be accessed inside that block.
+    */
+
+    {
+        int blockNumber = 50;
+
+        cout << "\nInside the block" << endl;
+        cout << "Block variable: "
+             << blockNumber << endl;
+    }
+
+
+    /*
+        This would cause an error:
+
+            cout << blockNumber;
+
+        because blockNumber exists only inside
+        the block where it was declared.
+    */
+
+
+    /*
+        3. Same Variable Name in Different Scopes
+
+        A local variable can have the same name
+        as a global variable.
+
+        The local variable takes priority inside
+        its own scope.
+    */
+
 
     return 0;
 }
