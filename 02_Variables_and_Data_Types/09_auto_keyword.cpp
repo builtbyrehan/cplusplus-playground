@@ -71,7 +71,30 @@ int main() {
     cout << "grade: " << sizeof(grade) << " byte(s)" << endl;
     cout << "isStudent: " << sizeof(isStudent) << " byte(s)" << endl;
 
+        /*
+        auto requires an initializer.
 
+        Incorrect:
+
+            auto number;
+
+        The compiler cannot determine the type because
+        no initial value has been provided.
+
+        Correct:
+
+            auto number = 10;
+    */
+
+
+
+    auto number = 10;
+
+    cout << "\nOriginal number: " << number << endl;
+
+    number = 25;
+
+    cout << "Updated number: " << number << endl;
 
     return 0;
 }
