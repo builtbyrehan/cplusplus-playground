@@ -86,7 +86,19 @@ int main() {
             auto number = 10;
     */
 
+        /*
+        Once the compiler determines the type,
+        the variable keeps that type.
 
+        Example:
+
+            auto number = 10;
+
+        Here number becomes an int.
+
+        number = 25;      // Valid
+        number = 5.5;     // Converted to int, not changed to double
+    */
 
     auto number = 10;
 
