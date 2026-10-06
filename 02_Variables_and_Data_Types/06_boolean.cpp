@@ -66,7 +66,22 @@ int main() {
     cout << "Age: " << age << endl;
     cout << "Is Adult: " << isAdult << endl;
 
+        /*
+        Another example:
+    */
 
+    int marks = 75;
+    bool hasPassed = marks >= 50;
+
+    cout << "\nMarks: " << marks << endl;
+    cout << "Passed: " << hasPassed << endl;
+
+    cout << "\nMemory Size" << endl;
+    cout << "-----------" << endl;
+
+    cout << "Size of bool: "
+         << sizeof(bool)
+         << " byte(s)" << endl;
 
     return 0;
 }
