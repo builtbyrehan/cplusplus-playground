@@ -78,7 +78,15 @@ int main() {
 
     cout << "Tax Rate: " << TAX_RATE << endl;
 
+    /*
+        Why use const?
 
+        1. Prevent accidental modification
+        2. Make code easier to understand
+        3. Clearly indicate fixed values
+        4. Improve code safety
+        5. Make program intent more obvious
+    */
 
     return 0;
 }
