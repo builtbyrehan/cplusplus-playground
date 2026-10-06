@@ -104,7 +104,22 @@ int main() {
          << ::globalNumber << endl;
 
 
+    /*
+        Key Idea:
 
+        Global Scope
+            -> accessible across functions in the file
+               after declaration
+
+        Local Scope
+            -> accessible inside a function
+
+        Block Scope
+            -> accessible only inside { }
+
+        In general, prefer variables with the
+        smallest practical scope.
+    */
 
 
     return 0;
