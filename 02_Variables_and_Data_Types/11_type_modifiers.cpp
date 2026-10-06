@@ -84,7 +84,62 @@ int main() {
          << sizeof(long long int)
          << " byte(s)" << endl;
 
-   
+ /*
+        Modifiers can often be written in shorter forms.
+
+        These are equivalent:
+
+            short int number;
+            short number;
+
+            long int number;
+            long number;
+
+            unsigned int number;
+            unsigned number;
+    */
+
+    short shortValue = 100;
+    long longValue = 500000;
+    unsigned unsignedValue = 200;
+
+    cout << "\nShort Forms" << endl;
+    cout << "-----------" << endl;
+
+    cout << "short: " << shortValue << endl;
+    cout << "long: " << longValue << endl;
+    cout << "unsigned: " << unsignedValue << endl;
+
+    /*
+        long can also be used with double.
+
+        long double may provide greater precision
+        than double depending on the implementation.
+    */
+
+    long double preciseValue = 3.141592653589793238L;
+
+    cout << "\nLong Double" << endl;
+    cout << "-----------" << endl;
+
+    cout << "Value: " << preciseValue << endl;
+    cout << "Size: "
+         << sizeof(long double)
+         << " byte(s)" << endl;
+
+    /*
+        Important:
+
+        unsigned values should not be used just because
+        a value is expected to be positive.
+
+        Mixing signed and unsigned values can sometimes
+        produce unexpected results.
+
+        Choose a type according to the actual requirements
+        of the program.
+    */
+
 
     return 0;
 }
