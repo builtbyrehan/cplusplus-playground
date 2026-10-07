@@ -48,6 +48,18 @@ int main() {
               << std::numeric_limits<double>::digits10 << " digits\n";
 
 
+    // --------------------------------
+    // Boolean type information
+    // --------------------------------
+
+    std::cout << "\nbool:\n";
+
+    std::cout << "Minimum: "
+              << std::numeric_limits<bool>::min() << '\n';
+
+    std::cout << "Maximum: "
+              << std::numeric_limits<bool>::max() << '\n';
+
 
     return 0;
 }
