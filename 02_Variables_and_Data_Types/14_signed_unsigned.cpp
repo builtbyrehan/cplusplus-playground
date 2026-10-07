@@ -44,6 +44,36 @@ int main() {
               << std::numeric_limits<unsigned int>::max() << '\n';
 
 
+    // --------------------------------
+    // 4. Unsigned integers cannot
+    //    represent negative values
+    // --------------------------------
+
+    unsigned int positiveNumber = 10;
+
+    std::cout << "\nPositive number: "
+              << positiveNumber << '\n';
+
+    // Do not do this:
+    // unsigned int negativeNumber = -10;
+
+    // The value cannot be represented as a negative
+    // unsigned integer.
+
+
+    // --------------------------------
+    // 5. Unsigned integer wrapping
+    // --------------------------------
+
+    unsigned int value = 0;
+
+    value--;
+
+    std::cout << "\nUnsigned value after decrementing 0: "
+              << value << '\n';
+
+
+
 
     return 0;
 }
