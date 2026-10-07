@@ -67,22 +67,6 @@ int main() {
 
     std::cout << "\nType properties:\n";
 
-    std::cout << std::boolalpha;
 
-    std::cout << "int is signed: "
-              << std::numeric_limits<int>::is_signed
-              << '\n';
-
-    std::cout << "unsigned int is signed: "
-              << std::numeric_limits<unsigned int>::is_signed
-              << '\n';
-
-    std::cout << "float has infinity: "
-              << std::numeric_limits<float>::has_infinity
-              << '\n';
-
-    std::cout << "double has infinity: "
-              << std::numeric_limits<double>::has_infinity
-              << '\n';
     return 0;
 }
