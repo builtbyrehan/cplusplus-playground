@@ -18,5 +18,17 @@ int main() {
 
 
 
+    // --------------------------------
+    // Unsigned integer
+    // --------------------------------
+
+    std::cout << "\nunsigned int:\n";
+    std::cout << "Minimum: "
+              << std::numeric_limits<unsigned int>::min() << '\n';
+    std::cout << "Maximum: "
+              << std::numeric_limits<unsigned int>::max() << '\n';
+
+
+
     return 0;
 }
