@@ -73,7 +73,21 @@ int main() {
               << value << '\n';
 
 
+    // --------------------------------
+    // 6. Signed vs unsigned comparison
+    // --------------------------------
 
+    int signedValue = -1;
+    unsigned int unsignedValue = 1;
+
+    std::cout << "\nSigned value: "
+              << signedValue << '\n';
+
+    std::cout << "Unsigned value: "
+              << unsignedValue << '\n';
+
+    std::cout << "signedValue < unsignedValue: "
+              << (signedValue < unsignedValue) << '\n';
 
     return 0;
 }
