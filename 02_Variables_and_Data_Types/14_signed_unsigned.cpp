@@ -1,6 +1,6 @@
-#include <iostream>
+#include <iostream> 
 #include <limits>
-
+using namespace std; // namespace added
 int main() { // start of main function
 
     // --------------------------------
