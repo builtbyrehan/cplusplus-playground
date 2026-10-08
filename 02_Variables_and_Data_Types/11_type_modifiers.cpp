@@ -61,28 +61,7 @@ int main() { // start of main function
         on the current machine.
     */
     
-    cout << "\nMemory Sizes" << endl;
-    cout << "------------" << endl;
 
-    cout << "short int: "
-         << sizeof(short int)
-         << " byte(s)" << endl;
-
-    cout << "int: "
-         << sizeof(int)
-         << " byte(s)" << endl;
-
-    cout << "unsigned int: "
-         << sizeof(unsigned int)
-         << " byte(s)" << endl;
-
-    cout << "long int: "
-         << sizeof(long int)
-         << " byte(s)" << endl;
-
-    cout << "long long int: "
-         << sizeof(long long int)
-         << " byte(s)" << endl;
 
  /*
         Modifiers can often be written in shorter forms.
