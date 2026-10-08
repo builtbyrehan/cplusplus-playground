@@ -61,6 +61,12 @@ int main() { // start of main function
         on the current machine.
     */
     
+    cout << "\nMemory Sizes" << endl;
+    cout << "------------" << endl;
+
+    cout << "short int: "
+         << sizeof(short int)
+         << " byte(s)" << endl;
 
 
  /*
