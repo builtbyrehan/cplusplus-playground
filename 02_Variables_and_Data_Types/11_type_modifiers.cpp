@@ -28,7 +28,7 @@ using namespace std;
     on the compiler and system.
 */
 
-int main() {
+int main() { // start of main function 
 
     // signed can store negative and positive values
     signed int temperature = -15;
@@ -142,4 +142,4 @@ int main() {
 
 
     return 0;
-}
+} // end of main function 
