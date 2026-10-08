@@ -75,6 +75,10 @@ int main() { // start of main function
     cout << "unsigned int: "
          << sizeof(unsigned int)
          << " byte(s)" << endl;
+    cout << "long int: "
+         << sizeof(long int)
+         << " byte(s)" << endl;
+
 
 
 
