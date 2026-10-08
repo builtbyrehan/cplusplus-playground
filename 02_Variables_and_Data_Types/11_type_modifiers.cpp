@@ -99,7 +99,7 @@ int main() { // start of main function
             unsigned number;
     */
 
-    short shortValue = 100;
+    short shortValue = 100; // variable initialization
     long longValue = 500000;
     unsigned unsignedValue = 200;
 
