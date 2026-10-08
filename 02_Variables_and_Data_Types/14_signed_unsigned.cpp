@@ -1,7 +1,7 @@
 #include <iostream>
 #include <limits>
 
-int main() {
+int main() { // start of main function
 
     // --------------------------------
     // 1. Signed integer
@@ -90,4 +90,4 @@ int main() {
               << (signedValue < unsignedValue) << '\n';
 
     return 0;
-}
+} // end of main function 
