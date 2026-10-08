@@ -21,10 +21,10 @@ using namespace std;
 // Global variable
 // It can be accessed by functions in this file
 // after its declaration.
-int globalNumber = 100;
+int globalNumber = 100; // global variable initializtion
 
 
-int main() {
+int main() { // start of main function
 
     /*
         1. Local Scope
@@ -35,7 +35,7 @@ int main() {
         It can only be accessed inside that function.
     */
 
-    int localNumber = 20;
+    int localNumber = 20; // local variables
 
     cout << "Local variable: "
          << localNumber << endl;
@@ -84,12 +84,12 @@ int main() {
         The local variable takes priority inside
         its own scope.
     */
-    int globalNumber = 25;
+    int globalNumber = 25; 
 
     cout << "\nScope Example" << endl;
     cout << "-------------" << endl;
 
-    cout << "Local globalNumber: "
+    cout << "Local globalNumber: " 
          << globalNumber << endl;
 
 
@@ -123,4 +123,4 @@ int main() {
 
 
     return 0;
-}
+} // end of main function 
