@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+int main() { // start of main function
 
     // List initialization
     int age{25};
@@ -35,4 +35,4 @@ int main() {
     std::cout << "\nValue: " << value << '\n';
 
     return 0;
-}
+} // end main functoin 
