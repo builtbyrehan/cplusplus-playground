@@ -79,7 +79,9 @@ int main() { // start of main function
          << sizeof(long int)
          << " byte(s)" << endl;
 
-
+    cout << "long long int: "
+         << sizeof(long long int)
+         << " byte(s)" << endl;
 
 
  /*
