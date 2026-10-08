@@ -73,7 +73,7 @@ int main() {
               << std::numeric_limits<int>::is_signed
               << '\n';
 
-    std::cout << "unsigned int is signed: "
+    std::cout << "unsigned int is signed: " // unsigned int
               << std::numeric_limits<unsigned int>::is_signed
               << '\n';
 
