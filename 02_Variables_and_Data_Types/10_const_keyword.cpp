@@ -88,5 +88,10 @@ int main() {
         5. Make program intent more obvious
     */
 
+
+    const int AGE = 21;
+    AGE = 22; // would result in compilation error 
+    // so the fact is that we cannot change constants once they are initialized 
+
     return 0;
 }
