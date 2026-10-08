@@ -72,6 +72,11 @@ int main() { // start of main function
          << sizeof(int)
          << " byte(s)" << endl;
 
+    cout << "unsigned int: "
+         << sizeof(unsigned int)
+         << " byte(s)" << endl;
+
+
 
  /*
         Modifiers can often be written in shorter forms.
