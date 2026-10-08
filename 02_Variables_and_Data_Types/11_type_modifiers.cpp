@@ -68,6 +68,10 @@ int main() { // start of main function
          << sizeof(short int)
          << " byte(s)" << endl;
 
+    cout << "int: "
+         << sizeof(int)
+         << " byte(s)" << endl;
+
 
  /*
         Modifiers can often be written in shorter forms.
