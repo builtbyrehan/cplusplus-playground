@@ -21,7 +21,7 @@ using namespace std;
     Constants are useful when a value should remain fixed.
 */
 
-int main() {
+int main() { // start of main function 
 
     const int DAYS_IN_WEEK = 7;
     const double PI = 3.14159;
@@ -94,4 +94,4 @@ int main() {
     // so the fact is that we cannot change constants once they are initialized 
 
     return 0;
-}
+} // end of function
