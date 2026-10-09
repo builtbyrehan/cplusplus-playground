@@ -18,5 +18,9 @@ int main() {
     cout << "Name: " << name << endl;
     cout << "Age: " << age << endl;
 
+    /*home task
+    1. Do experiment with behaviour of cin.ignore() differently by making changes
+    and see how it influence the input stream... */
+
     return 0;
 }
