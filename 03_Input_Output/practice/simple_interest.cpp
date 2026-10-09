@@ -3,8 +3,8 @@
 #include <iomanip>
 using namespace std;
 
-int main() {
-    double principal;
+int main() { /// start of main function 
+    double principal; // variable declaration
     double rate;
     double time;
     double simpleInterest;
@@ -21,8 +21,8 @@ int main() {
     cout << "Enter time in years: ";
     cin >> time;
 
-    simpleInterest = (principal * rate * time) / 100;
-    totalAmount = principal + simpleInterest;
+    simpleInterest = (principal * rate * time) / 100; // the heart (formula)
+    totalAmount = principal + simpleInterest; // calculation of total amount
 
     cout << fixed << setprecision(2);
 
@@ -35,3 +35,4 @@ int main() {
 
     return 0;
 }
+ // end of main function 
