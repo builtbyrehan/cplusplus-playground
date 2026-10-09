@@ -3,9 +3,9 @@
 #include <iomanip>
 using namespace std;
 
-int main() {
+int main() { // start of main function 
     double temperature;
-    double convertedTemperature;
+    double convertedTemperature;  // variables declaration
     char choice;
 
     cout << "=== Temperature Converter ===" << endl;
@@ -18,7 +18,7 @@ int main() {
     cout << "Enter temperature: ";
     cin >> temperature;
 
-    if (choice == 'C' || choice == 'c') {
+    if (choice == 'C' || choice == 'c') { // decision making 
         convertedTemperature = (temperature * 9.0 / 5.0) + 32;
 
         cout << fixed << setprecision(2);
@@ -36,5 +36,6 @@ int main() {
         cout << "Invalid choice! Please enter C or F." << endl;
     }
 
-    return 0;
+    return 0; // return code
 }
+// end of main function 
