@@ -3,21 +3,21 @@
 using namespace std;
 
 int main() { // start of main function 
-    string name;
+    string name; // variables declaration
     int age;
     float height;
 
     cout << "Enter your name: ";
-    cin >> name;
+    cin >> name; // input stream
 
     cout << "Enter your age: ";
     cin >> age;
 
     cout << "Enter your height in feet: ";
-    cin >> height;
+    cin >> height;  // input 
 
     cout << "\n--- Your Information ---" << endl;
-    cout << "Name: " << name << endl;
+    cout << "Name: " << name << endl; // ouptut
     cout << "Age: " << age << endl;
     cout << "Height: " << height << " feet" << endl;
 
