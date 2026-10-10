@@ -11,6 +11,7 @@ int main() {
 
     cout << "\n--- Arithmetic Operations ---" << endl;
     cout << "Addition: " << a + b << endl;
+    cout << "Subtraction: " << a - b << endl;
 
 
 
