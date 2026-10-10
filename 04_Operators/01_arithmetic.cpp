@@ -10,6 +10,7 @@ int main() {
     cout << "b = " << b << endl;
 
     cout << "\n--- Arithmetic Operations ---" << endl;
+    cout << "Addition: " << a + b << endl;
 
 
 
