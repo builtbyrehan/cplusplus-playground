@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() { // start of main funciton 
     int x = 10;
 
     cout << "Initial value: " << x << endl;
@@ -23,4 +23,4 @@ int main() {
     cout << "After x %= 3: " << x << endl;
 
     return 0;
-}
+} // end of main function 
