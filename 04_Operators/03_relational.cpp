@@ -12,6 +12,7 @@ int main() { // start of main function
     cout << "b = " << b << endl;
 
     cout << "\n--- Relational Operations ---" << endl;
+    cout << "a == b: " << (a == b) << endl;
 
 
 
