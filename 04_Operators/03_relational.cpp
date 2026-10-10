@@ -13,6 +13,7 @@ int main() { // start of main function
 
     cout << "\n--- Relational Operations ---" << endl;
     cout << "a == b: " << (a == b) << endl;
+    cout << "a != b: " << (a != b) << endl; // relational operators in cpp
 
 
 
