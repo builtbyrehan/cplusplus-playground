@@ -30,6 +30,9 @@ int main() {
     int a = 10;
 cout << a++ << endl;
     
+
+int b = 10;
+cout << ++b << endl;
     */
 
     return 0;
