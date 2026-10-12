@@ -7,6 +7,7 @@ int main() {
     int b = 3;
 
     cout << "Bitwise AND: " << (a & b) << endl;
+    cout << "Bitwise OR: " << (a | b) << endl;
 
 
     return 0;
