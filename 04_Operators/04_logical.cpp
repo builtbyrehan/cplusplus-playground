@@ -20,6 +20,10 @@ int main() {
          you can go home, or stay outside
          so this is going to be an OR situation*/
 
+        // Logical NOT (!)
+    cout << "Logical NOT: "
+         << (!hasID) << endl;
+
 
 
 
