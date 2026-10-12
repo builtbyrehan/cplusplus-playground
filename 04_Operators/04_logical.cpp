@@ -10,6 +10,11 @@ int main() {
     cout << "Logical AND: "  << (age >= 18 && hasID) << endl;
     /*the and operator says that both values must be TRUE*/
     
+        // Logical OR (||)
+    cout << "Logical OR: "
+         << (age < 18 || hasID) << endl;
+
+
 
 
 
