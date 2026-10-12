@@ -28,5 +28,17 @@ int main() {
 
 
 
+    /*what would be the point of the following program? */
+    /*
+
+
+    int a = 10;
+int b = 5;
+
+cout << (a > 5 && b < 3) << endl;
+cout << (a > 5 || b < 3) << endl;
+cout << !(a == 10) << endl;
+    */
+
     return 0;
 }
