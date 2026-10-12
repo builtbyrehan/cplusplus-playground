@@ -23,5 +23,14 @@ int main() {
     cout << "Pre-decrement: " << --b << endl;
     cout << "Value of b: " << b << endl;
 
+
+
+    /*
+    
+    int a = 10;
+cout << a++ << endl;
+    
+    */
+
     return 0;
 }
