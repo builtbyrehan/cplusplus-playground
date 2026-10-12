@@ -14,6 +14,11 @@ int main() {
     cout << "Logical OR: "
          << (age < 18 || hasID) << endl;
 
+         /* we use or operator if we want to just go with only one true value
+         for example: 
+         you have 2 choices, 
+         you can go home, or stay outside
+         so this is going to be an OR situation*/
 
 
 
