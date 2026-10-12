@@ -10,6 +10,12 @@ int main() {
     cout << "Post-increment: " << a++ << endl;
     cout << "Value of a: " << a << endl;
 
+    
+    // Pre-increment
+    cout << "Pre-increment: " << ++b << endl;
+    cout << "Value of b: " << b << endl;
+
+
 
     return 0;
 }
