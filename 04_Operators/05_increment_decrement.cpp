@@ -15,6 +15,10 @@ int main() {
     cout << "Pre-increment: " << ++b << endl;
     cout << "Value of b: " << b << endl;
 
+    // Post-decrement
+    cout << "Post-decrement: " << a-- << endl;
+    cout << "Value of a: " << a << endl;
+
 
 
     return 0;
