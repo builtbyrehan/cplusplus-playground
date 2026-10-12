@@ -7,8 +7,9 @@ int main() {
     bool hasID = true;
 
     // Logical AND (&&)
-    cout << "Logical AND: "
-         << (age >= 18 && hasID) << endl;
+    cout << "Logical AND: "  << (age >= 18 && hasID) << endl;
+    /*the and operator says that both values must be TRUE*/
+    
 
 
 
