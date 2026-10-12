@@ -8,6 +8,7 @@ int main() {
 
     cout << "Bitwise AND: " << (a & b) << endl;
     cout << "Bitwise OR: " << (a | b) << endl;
+    cout << "Bitwise XOR: " << (a ^ b) << endl;
 
 
     return 0;
