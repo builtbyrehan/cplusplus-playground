@@ -10,7 +10,8 @@ int main() {
     cout << "Bitwise OR: " << (a | b) << endl;
     cout << "Bitwise XOR: " << (a ^ b) << endl;
     cout << "Bitwise NOT of a: " << (~a) << endl;
-
+    cout << "Left shift: " << (a << 1) << endl;
+    cout << "Right shift: " << (a >> 1) << endl;
 
     return 0;
 }
