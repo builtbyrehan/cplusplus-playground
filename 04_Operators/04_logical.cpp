@@ -24,6 +24,7 @@ int main() {
     cout << "Logical NOT: "
          << (!hasID) << endl;
 
+    /*write a program to demostrate the use of all of these operators from any of the real-world problem from your daily life*/
 
 
 
