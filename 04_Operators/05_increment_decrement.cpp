@@ -19,7 +19,9 @@ int main() {
     cout << "Post-decrement: " << a-- << endl;
     cout << "Value of a: " << a << endl;
 
-
+    // Pre-decrement
+    cout << "Pre-decrement: " << --b << endl;
+    cout << "Value of b: " << b << endl;
 
     return 0;
 }
