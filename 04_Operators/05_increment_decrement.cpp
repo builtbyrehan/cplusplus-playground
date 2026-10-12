@@ -33,6 +33,16 @@ cout << a++ << endl;
 
 int b = 10;
 cout << ++b << endl;
+\
+
+
+
+Practice question: 
+
+
+int x = 5;
+cout << x++ << endl;
+cout << ++x << endl;
     */
 
     return 0;
