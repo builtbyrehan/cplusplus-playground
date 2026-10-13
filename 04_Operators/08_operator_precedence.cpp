@@ -46,4 +46,11 @@ For example:
 
 Multiplication and division have equal precedence and associate left to right:
 - 20 / 5 = 4
-- 4 * 2 = 8*/
+- 4 * 2 = 8*
+
+
+PRACTICE QUESTION:
+
+What is the output of this expression?
+int result = 10 + 6 / 2 * 3;
+cout << result;/
