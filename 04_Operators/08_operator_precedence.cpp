@@ -37,4 +37,13 @@ int main() {
 }
 
 /*Important: Precedence vs. associativity
-Precedence tells you which operator group binds more tightly. Associativity determines grouping when operators at the same precedence level appear together.*/
+Precedence tells you which operator group binds more tightly. Associativity determines grouping when operators at the same precedence level appear together.
+
+
+For example:
+20 / 5 * 2
+
+
+Multiplication and division have equal precedence and associate left to right:
+- 20 / 5 = 4
+- 4 * 2 = 8*/
