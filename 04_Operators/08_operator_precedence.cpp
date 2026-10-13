@@ -20,6 +20,8 @@ using namespace std;
 
 int main() {
     int result1 = 2 + 3 * 4;
+    int result2 = (2 + 3) * 4;
+
 
     return 0;
 }
