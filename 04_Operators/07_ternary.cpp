@@ -19,5 +19,21 @@ int main() {
     int greater = (a > b) ? a : b;
 
     cout << "Greater number: " << greater << endl;
+
+
+    /*
+    
+What will this code print?
+int x = 12;
+int y = 8;
+
+int result = (x < y) ? x : y;
+
+cout << result << endl;
+    
+    
+    */
     return 0;
 }
+
+
