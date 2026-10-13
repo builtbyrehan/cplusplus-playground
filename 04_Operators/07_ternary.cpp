@@ -12,6 +12,12 @@ int main() {
     cout << "Result: " << result << endl;
 
 
+    // Find the greater number
+    int a = 15;
+    int b = 25;
 
+    int greater = (a > b) ? a : b;
+
+    cout << "Greater number: " << greater << endl;
     return 0;
 }
