@@ -13,3 +13,13 @@ Multiplication has higher precedence than addition, so:
 Therefore, the result is 14, not 20.
 
 */
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int result1 = 2 + 3 * 4;
+
+    return 0;
+}
