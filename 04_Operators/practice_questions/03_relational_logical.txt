@@ -1,0 +1,12 @@
+1. Your task
+Create a C++ program that checks whether a student qualifies for a scholarship.
+Your program should:
+1. Declare int marks = 85 and int attendance = 90.
+2. Check whether marks are greater than or equal to 80.
+3. Check whether attendance is greater than or equal to 75.
+4. Use the logical AND operator (&&) to determine whether the student qualifies.
+5. Print all three results.
+2. Expected output
+Marks requirement met: 1
+Attendance requirement met: 1
+Eligible for scholarship: 1
