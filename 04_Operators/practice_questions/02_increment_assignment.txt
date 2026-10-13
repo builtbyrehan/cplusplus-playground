@@ -1,0 +1,15 @@
+1. Your task
+Write a C++ program that:
+1. Declares int x = 10.
+2. Prints the value of x before any changes.
+3. Uses x += 5 and prints the updated value.
+4. Uses x *= 2 and prints the updated value.
+5. Prints x++, then prints x again.
+6. Uses --x and prints the result.
+2. Expected output
+Initial value: 10
+After += 5: 15
+After *= 2: 30
+Post-increment: 30
+After post-increment: 31
+Pre-decrement: 30
