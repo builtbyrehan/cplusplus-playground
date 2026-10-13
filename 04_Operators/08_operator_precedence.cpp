@@ -35,3 +35,6 @@ int main() {
 
     return 0;
 }
+
+/*Important: Precedence vs. associativity
+Precedence tells you which operator group binds more tightly. Associativity determines grouping when operators at the same precedence level appear together.*/
