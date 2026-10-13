@@ -21,7 +21,17 @@ using namespace std;
 int main() {
     int result1 = 2 + 3 * 4;
     int result2 = (2 + 3) * 4;
+    int result3 = 20 / 5 * 2;
+    int result4 = 10 - 4 + 2;
+    int result5 = 5 + 2 > 6;
+    int result6 = 1 + 2 * 3 == 7;
 
+    cout << "2 + 3 * 4 = " << result1 << endl;
+    cout << "(2 + 3) * 4 = " << result2 << endl;
+    cout << "20 / 5 * 2 = " << result3 << endl;
+    cout << "10 - 4 + 2 = " << result4 << endl;
+    cout << "5 + 2 > 6 = " << result5 << endl;
+    cout << "1 + 2 * 3 == 7 = " << result6 << endl;
 
     return 0;
 }
