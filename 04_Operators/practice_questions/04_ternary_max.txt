@@ -1,0 +1,11 @@
+1. Your task
+Write a C++ program that finds the largest of three integers using the ternary operator (?:).
+Your program should:
+1. Declare three integers: a = 25, b = 40, and c = 30.
+2. Use a ternary expression to find the largest number.
+3. Print all three numbers and the largest value.
+2. Expected output
+First number: 25
+Second number: 40
+Third number: 30
+Largest number: 40
