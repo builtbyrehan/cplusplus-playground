@@ -1,0 +1,14 @@
+Write a C++ program that:
+1. Declares two integers, a = 15 and b = 4.
+2. Prints their sum, difference, product, and integer division.
+3. Checks whether a is greater than b.
+4. Checks whether both numbers are greater than 0.
+5. Checks whether a is even using the modulus operator %.
+Expected output
+Sum: 19
+Difference: 11
+Product: 60
+Division: 3
+Is a greater than b? 1
+Are both numbers positive? 1
+Is a even? 0
