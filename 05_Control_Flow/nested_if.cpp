@@ -5,3 +5,13 @@
 // 1. Check whether the username is correct.
 // 2. If it is correct, check whether the password is correct.
 // 3. Grant access only when both are correct.
+
+/**
+
+
+Syntax
+if (condition1) {
+    if (condition2) {
+        // Executes if both conditions are true
+    }
+}*/
