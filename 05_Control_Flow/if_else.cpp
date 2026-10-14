@@ -32,3 +32,20 @@ int main() { // start of main func
 
     return 0;
 } // end of main function 
+
+
+/*
+
+3. Example outputs
+Example A: Condition is true
+Enter your age: 20
+You are eligible to vote.
+Program finished.
+
+
+
+Example B: Condition is false
+Enter your age: 16
+You are not eligible to vote.
+Program finished.
+*/
