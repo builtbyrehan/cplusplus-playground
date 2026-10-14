@@ -24,13 +24,13 @@ if (condition1) {
 #include <iostream>
 using namespace std;
 
-int main() { 
-    int marks;
+int main() {  // start of main function 
+    int marks; // declaration 
 
     cout << "Enter your marks (0-100): ";
-    cin >> marks;
+    cin >> marks; // input
 
-    if (marks < 0 || marks > 100) {
+    if (marks < 0 || marks > 100) { // start of main function 
         cout << "Invalid marks." << endl;
     } else if (marks >= 90) {
         cout << "Grade: A" << endl;
@@ -42,7 +42,7 @@ int main() {
         cout << "Grade: D" << endl;
     } else {
         cout << "Grade: F" << endl;
-    }
+    } // end of conditional block of co
 
-    return 0;
-}
+    return 0; // return code exit
+} // end of main function 
