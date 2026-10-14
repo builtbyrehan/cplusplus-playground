@@ -91,4 +91,23 @@ if (marks >= 60) {
 If the user enters , the first condition is already true, so the program never reaches the Grade A condition.95
 Rule: When conditions overlap, check the more restrictive or higher-threshold conditions first.
 
+
+Practice exercises
+Practice tracker
+0/4 completed
+
+[ ] 1. Temperature classification
+Input temperature. Print Cold below 15, Moderate from 15 to 29, and Hot at 30 or above.
+
+
+[ ] 2. Age categories
+Classify an age as Child (under 13), Teenager (13–19), or Adult (20 and above). Handle negative ages as invalid.
+
+
+[ ] 3. Electricity billing
+Input units and assign a category: Low (0–100), Medium (101–300), or High (above 300). Reject negative units.
+
+
+[ ] 4. Number comparison
+Input two integers and print whether the first is greater, the second is greater, or both are equal.
 */
