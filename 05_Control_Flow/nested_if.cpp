@@ -15,3 +15,31 @@ if (condition1) {
         // Executes if both conditions are true
     }
 }*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    bool hasLicense;
+
+    cout << "Enter your age: ";
+    cin >> age;
+
+    cout << "Do you have a driving license? (1 = Yes, 0 = No): ";
+    cin >> hasLicense;
+
+    if (age >= 18) {
+        cout << "Age requirement satisfied." << endl;
+
+        if (hasLicense) {
+            cout << "You are eligible to drive." << endl;
+        } else {
+            cout << "You need a driving license." << endl;
+        }
+    } else {
+        cout << "You are too young to drive." << endl;
+    }
+
+    return 0;
+}
