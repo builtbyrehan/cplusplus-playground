@@ -25,5 +25,19 @@ How it works
 6. The final message executes regardless of the condition.
 
 
+Practice exercises
+Try these yourself before moving to the next file.
+Your practice checklist
+0/3 completed
 
+[ ] 1. Positive number checker
+Input an integer and print a message only if the number is greater than zero.
+
+
+[ ] 2. Passing marks
+Input marks and print “Passed” if marks are at least 50.
+
+
+[ ] 3. Even number checker
+Input an integer and print “Even number” if number % 2 == 0.
 */
