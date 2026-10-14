@@ -7,3 +7,16 @@
 // - 60 or above → Grade D
 // - Below 60 → Grade F
 // Checking each possibility with a separate  could execute multiple blocks. An  chain selects only the first matching branch.ifif-else-if
+
+/*Syntax
+if (condition1) {
+    // Executes if condition1 is true
+} else if (condition2) {
+    // Executes if condition1 is false
+    // and condition2 is true
+} else if (condition3) {
+    // Executes if the earlier conditions are false
+    // and condition3 is true
+} else {
+    // Executes if no condition is true
+}*/
