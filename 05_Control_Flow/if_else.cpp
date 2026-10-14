@@ -48,4 +48,10 @@ Example B: Condition is false
 Enter your age: 16
 You are not eligible to vote.
 Program finished.
+
+Important distinction 
+if	if-else
+Executes code if a condition is true.	Chooses between two branches.
+Does nothing when false, unless later code handles it.	Executes the  branch when false.else
+Useful for optional actions.	Useful when both outcomes need handling.
 */
