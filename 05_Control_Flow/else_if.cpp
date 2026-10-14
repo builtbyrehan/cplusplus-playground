@@ -78,4 +78,17 @@ Input: 105
 Enter your marks (0-100): 105
 Invalid marks.
 
+
+Why does the order matter?
+Consider this incorrect code:
+if (marks >= 60) {
+    cout << "Grade D or above";
+} else if (marks >= 90) {
+    cout << "Grade A";
+}
+
+
+If the user enters , the first condition is already true, so the program never reaches the Grade A condition.95
+Rule: When conditions overlap, check the more restrictive or higher-threshold conditions first.
+
 */
