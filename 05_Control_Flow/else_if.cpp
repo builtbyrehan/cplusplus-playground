@@ -46,3 +46,36 @@ int main() {  // start of main function
 
     return 0; // return code exit
 } // end of main function 
+
+
+/*
+3. Example outputs
+Input: 95
+Grade A
+
+Enter your marks (0-100): 95
+Grade: A
+
+
+
+Input: 83
+Grade B
+
+Enter your marks (0-100): 83
+Grade: B
+
+
+
+Input: 55
+Grade F
+
+Enter your marks (0-100): 55
+Grade: F
+
+
+
+Input: 105
+Enter your marks (0-100): 105
+Invalid marks.
+
+*/
